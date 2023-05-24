@@ -1,0 +1,19 @@
+#img{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+img{
+    border-radius: 25%;
+    width: 20% ;
+    margin: .5%;
+    border: 2px solid black ;
+}
+img:hover{
+    border: 3px solid rgb(255, 255, 255);
+   filter:grayscale();
+}
+#img-container{
+background-color: rgba(202, 202, 202, 0.548);
+}
